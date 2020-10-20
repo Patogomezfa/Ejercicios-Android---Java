@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Multilenguaje Application</string>
+    <string name="button">Log in</string>
+    <string name="et_usuario">User</string>
+    <string name="et_contraseña">Password</string>
+    <string name="textview">All rights reserverd</string>
+
+</resources>

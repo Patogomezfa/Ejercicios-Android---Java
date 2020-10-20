@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/bananas"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/holo_green_light"
+                android:contentDescription="@string/descripcion"
+                android:onClick="Selecccion"
+                app:srcCompat="@drawable/bananas" />
+
+            <ImageView
+                android:id="@+id/cerezas"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:contentDescription="@string/descripcion"
+                android:onClick="Selecccion"
+                app:srcCompat="@drawable/cerezas" />
+
+            <ImageView
+                android:id="@+id/frambuesas"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/holo_green_light"
+                android:contentDescription="@string/descripcion"
+                android:onClick="Selecccion"
+                app:srcCompat="@drawable/frambuesas" />
+
+            <ImageView
+                android:id="@+id/fresas"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:contentDescription="@string/descripcion"
+                android:onClick="Selecccion"
+                app:srcCompat="@drawable/fresas" />
+
+            <ImageView
+                android:id="@+id/kiwis"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/holo_green_light"
+                android:contentDescription="@string/descripcion"
+                android:onClick="Selecccion"
+                app:srcCompat="@drawable/kiwis" />
+
+            <ImageView
+                android:id="@+id/mangos"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:contentDescription="@string/descripcion"
+                android:onClick="Selecccion"
+                app:srcCompat="@drawable/mangos" />
+
+            <ImageView
+                android:id="@+id/manzanas"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/holo_green_light"
+                android:contentDescription="@string/app_name"
+                android:onClick="Selecccion"
+                app:srcCompat="@drawable/manzanas" />
+
+            <ImageView
+                android:id="@+id/melon"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:contentDescription="@string/descripcion"
+                android:onClick="Selecccion"
+                app:srcCompat="@drawable/melon" />
+
+            <ImageView
+                android:id="@+id/naranja"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/holo_green_light"
+                android:contentDescription="@string/descripcion"
+                android:onClick="Selecccion"
+                app:srcCompat="@drawable/naranjas" />
+
+            <ImageView
+                android:id="@+id/peras"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:contentDescription="@string/descripcion"
+                android:onClick="Selecccion"
+                app:srcCompat="@drawable/pera" />
+
+            <ImageView
+                android:id="@+id/pina"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/holo_green_light"
+                android:contentDescription="@string/descripcion"
+                android:onClick="Selecccion"
+                app:srcCompat="@drawable/pina" />
+
+            <ImageView
+                android:id="@+id/sandia"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:contentDescription="@string/descripcion"
+                android:onClick="Selecccion"
+                app:srcCompat="@drawable/sandia" />
+
+            <ImageView
+                android:id="@+id/uvas"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/holo_green_light"
+                android:contentDescription="@string/descripcion"
+                android:onClick="Selecccion"
+                app:srcCompat="@drawable/uvas" />
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

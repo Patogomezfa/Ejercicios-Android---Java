@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">SuperApp</string>
+    <string name="txt_view_String">Estatus del Alumno</string>
+    <string name="txt_Matematicas_String">Matematicas</string>
+    <string name="txt_Fisica_String">Fisica</string>
+    <string name="txt_Quimica_String">Quimica</string>
+    <string name="button">EVALUAR</string>
+</resources>
